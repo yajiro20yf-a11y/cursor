@@ -4,7 +4,7 @@ import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 export default function HomeScreen({ navigation }) {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>DocuFill AI</Text>
+      <Text style={styles.title}>SnapFill AI</Text>
       <Text style={styles.subtitle}>Selecciona una acción:</Text>
 
       <TouchableOpacity 

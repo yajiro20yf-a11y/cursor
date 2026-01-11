@@ -1,6 +1,6 @@
 @echo off
 echo ===================================================
-echo   Preparando proyecto DocuFill para Android Studio
+echo   Preparando proyecto SnapFill AI para Android Studio
 echo ===================================================
 echo.
 echo 1. Instalando dependencias de React Native (esto puede tardar un poco)...

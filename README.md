@@ -1,4 +1,4 @@
-# DocuFill AI - Extractor y Rellenador Inteligente de Documentos
+# SnapFill AI - Extractor y Rellenador Inteligente
 
 ## Descripción
 Esta aplicación permite automatizar el llenado de plantillas (Excel/Word) extrayendo datos de múltiples fuentes (PDFs escaneados, imágenes) utilizando Inteligencia Artificial, manteniendo el formato original de la plantilla.

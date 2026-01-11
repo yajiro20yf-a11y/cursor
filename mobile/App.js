@@ -13,7 +13,7 @@ export default function App() {
         <Stack.Screen 
           name="Home" 
           component={HomeScreen} 
-          options={{ title: 'DocuFill AI - Inicio' }} 
+          options={{ title: 'SnapFill AI - Inicio' }} 
         />
         <Stack.Screen 
           name="Camera" 
