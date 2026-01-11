@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Mobile / Node
+node_modules/
+.expo/
+dist/
+web-build/
+
+# Android Generated (Se regenera con prebuild, mejor no subirlo si usas Expo puro, 
+# pero si quieres abrirlo directo en Android Studio, a veces se sube. 
+# Para este caso, lo ignoraremos para obligarte a generar uno fresco en tu PC).
+mobile/android/
+mobile/ios/
+
+# Documentos
+documents/input/*
+documents/output/*
+# Mantener solo el .gitkeep si existiera, pero ignorar archivos reales
+!documents/input/.gitkeep
