@@ -1,4 +1,4 @@
-package com.dataextractor.ai.ui.screens
+package com.docuextract.ai.ui.screens
 
 import androidx.compose.animation.core.*
 import androidx.compose.foundation.layout.*
@@ -14,8 +14,8 @@ import androidx.compose.ui.draw.rotate
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import com.dataextractor.ai.ui.MainUiState
-import com.dataextractor.ai.ui.components.*
+import com.docuextract.ai.ui.MainUiState
+import com.docuextract.ai.ui.components.*
 
 /**
  * Pantalla de procesamiento

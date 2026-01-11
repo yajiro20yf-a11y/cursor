@@ -1,4 +1,4 @@
-package com.dataextractor.ai.ui.screens
+package com.docuextract.ai.ui.screens
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
@@ -12,10 +12,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import com.dataextractor.ai.data.models.ExtractionResult
-import com.dataextractor.ai.data.models.ProcessingStatus
-import com.dataextractor.ai.ui.MainUiState
-import com.dataextractor.ai.ui.components.*
+import com.docuextract.ai.data.models.ExtractionResult
+import com.docuextract.ai.data.models.ProcessingStatus
+import com.docuextract.ai.ui.MainUiState
+import com.docuextract.ai.ui.components.*
 
 /**
  * Pantalla de resultados
@@ -207,7 +207,7 @@ fun ResultsScreen(
 @Composable
 fun ResultItem(
     result: ExtractionResult,
-    fields: List<com.dataextractor.ai.data.models.TemplateField>
+    fields: List<com.docuextract.ai.data.models.TemplateField>
 ) {
     var expanded by remember { mutableStateOf(false) }
     

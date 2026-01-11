@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace = "com.dataextractor.ai"
+    namespace = "com.docuextract.ai"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.dataextractor.ai"
+        applicationId = "com.docuextract.ai"
         minSdk = 26
         targetSdk = 34
         versionCode = 1

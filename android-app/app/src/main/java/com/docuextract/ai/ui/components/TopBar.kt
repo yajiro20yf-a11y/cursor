@@ -1,4 +1,4 @@
-package com.dataextractor.ai.ui.components
+package com.docuextract.ai.ui.components
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.icons.Icons

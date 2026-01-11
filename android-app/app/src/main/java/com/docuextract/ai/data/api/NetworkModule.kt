@@ -1,6 +1,6 @@
-package com.dataextractor.ai.data.api
+package com.docuextract.ai.data.api
 
-import com.dataextractor.ai.BuildConfig
+import com.docuextract.ai.BuildConfig
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

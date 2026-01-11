@@ -1,4 +1,4 @@
-package com.dataextractor.ai.ui.theme
+package com.docuextract.ai.ui.theme
 
 import android.app.Activity
 import android.os.Build

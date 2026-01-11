@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">DataExtractor AI</string>
+    <string name="app_name">DocuExtract AI</string>
     
     <!-- Pantallas -->
-    <string name="screen_home">Inicio</string>
+    <string name="screen_home">DocuExtract</string>
     <string name="screen_template">Plantilla</string>
     <string name="screen_fields">Campos</string>
     <string name="screen_documents">Documentos</string>

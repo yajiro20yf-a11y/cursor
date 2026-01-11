@@ -1,4 +1,4 @@
-# 📱 DataExtractor AI - Android App
+# 📱 DocuExtract AI - Android App
 
 Aplicación móvil nativa para Android que permite extraer datos de documentos escaneados y fotos utilizando Inteligencia Artificial.
 

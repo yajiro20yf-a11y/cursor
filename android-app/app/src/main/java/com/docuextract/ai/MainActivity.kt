@@ -1,4 +1,4 @@
-package com.dataextractor.ai
+package com.docuextract.ai
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -8,8 +8,8 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
-import com.dataextractor.ai.ui.navigation.DataExtractorNavHost
-import com.dataextractor.ai.ui.theme.DataExtractorTheme
+import com.docuextract.ai.ui.navigation.DataExtractorNavHost
+import com.docuextract.ai.ui.theme.DataExtractorTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 /**

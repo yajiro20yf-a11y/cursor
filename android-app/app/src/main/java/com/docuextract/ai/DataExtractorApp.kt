@@ -1,4 +1,4 @@
-package com.dataextractor.ai
+package com.docuextract.ai
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp

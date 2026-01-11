@@ -1,4 +1,4 @@
-package com.dataextractor.ai.ui.screens
+package com.docuextract.ai.ui.screens
 
 import android.net.Uri
 import androidx.activity.compose.rememberLauncherForActivityResult
@@ -16,9 +16,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import com.dataextractor.ai.data.models.DocumentUpload
-import com.dataextractor.ai.ui.MainUiState
-import com.dataextractor.ai.ui.components.*
+import com.docuextract.ai.data.models.DocumentUpload
+import com.docuextract.ai.ui.MainUiState
+import com.docuextract.ai.ui.components.*
 
 /**
  * Pantalla de subida de documentos

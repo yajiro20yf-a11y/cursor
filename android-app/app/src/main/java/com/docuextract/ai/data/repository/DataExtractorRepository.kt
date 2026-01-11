@@ -1,10 +1,10 @@
-package com.dataextractor.ai.data.repository
+package com.docuextract.ai.data.repository
 
 import android.content.Context
 import android.net.Uri
-import com.dataextractor.ai.data.api.ApiService
-import com.dataextractor.ai.data.api.ExtractionRequest
-import com.dataextractor.ai.data.models.*
+import com.docuextract.ai.data.api.ApiService
+import com.docuextract.ai.data.api.ExtractionRequest
+import com.docuextract.ai.data.models.*
 import com.google.gson.Gson
 import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.Dispatchers

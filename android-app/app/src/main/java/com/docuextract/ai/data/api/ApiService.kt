@@ -1,6 +1,6 @@
-package com.dataextractor.ai.data.api
+package com.docuextract.ai.data.api
 
-import com.dataextractor.ai.data.models.*
+import com.docuextract.ai.data.models.*
 import okhttp3.MultipartBody
 import okhttp3.RequestBody
 import okhttp3.ResponseBody

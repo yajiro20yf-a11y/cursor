@@ -1,14 +1,14 @@
-package com.dataextractor.ai.ui.navigation
+package com.docuextract.ai.ui.navigation
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.dataextractor.ai.ui.MainViewModel
-import com.dataextractor.ai.ui.screens.*
-import com.dataextractor.ai.ui.components.StepIndicator
-import com.dataextractor.ai.ui.components.TopBar
+import com.docuextract.ai.ui.MainViewModel
+import com.docuextract.ai.ui.screens.*
+import com.docuextract.ai.ui.components.StepIndicator
+import com.docuextract.ai.ui.components.TopBar
 
 /**
  * Navegación principal de la aplicación con wizard de pasos

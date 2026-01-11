@@ -1,4 +1,4 @@
-package com.dataextractor.ai.data.models
+package com.docuextract.ai.data.models
 
 import com.google.gson.annotations.SerializedName
 

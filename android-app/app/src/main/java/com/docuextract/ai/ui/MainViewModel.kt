@@ -1,10 +1,10 @@
-package com.dataextractor.ai.ui
+package com.docuextract.ai.ui
 
 import android.net.Uri
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.dataextractor.ai.data.models.*
-import com.dataextractor.ai.data.repository.DataExtractorRepository
+import com.docuextract.ai.data.models.*
+import com.docuextract.ai.data.repository.DataExtractorRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
