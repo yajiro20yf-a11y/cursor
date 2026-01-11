@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DataExtractor AI</string>
+    
+    <!-- Pantallas -->
+    <string name="screen_home">Inicio</string>
+    <string name="screen_template">Plantilla</string>
+    <string name="screen_fields">Campos</string>
+    <string name="screen_documents">Documentos</string>
+    <string name="screen_processing">Procesando</string>
+    <string name="screen_results">Resultados</string>
+    
+    <!-- Botones -->
+    <string name="btn_continue">Continuar</string>
+    <string name="btn_back">Atrás</string>
+    <string name="btn_upload">Subir</string>
+    <string name="btn_process">Procesar</string>
+    <string name="btn_download">Descargar</string>
+    <string name="btn_new_process">Nuevo Proceso</string>
+    <string name="btn_take_photo">Tomar Foto</string>
+    <string name="btn_select_gallery">Galería</string>
+    <string name="btn_select_file">Seleccionar Archivo</string>
+    
+    <!-- Mensajes -->
+    <string name="msg_upload_template">Sube tu plantilla Excel o Word</string>
+    <string name="msg_configure_fields">Configura los campos a extraer</string>
+    <string name="msg_upload_documents">Sube fotos o escaneos de documentos</string>
+    <string name="msg_processing">Procesando documentos con IA...</string>
+    <string name="msg_success">¡Procesamiento completado!</string>
+    <string name="msg_error">Error en el procesamiento</string>
+    <string name="msg_no_documents">No hay documentos seleccionados</string>
+    <string name="msg_no_template">No hay plantilla seleccionada</string>
+    
+    <!-- Tipos de campo -->
+    <string name="field_text">Texto</string>
+    <string name="field_number">Número</string>
+    <string name="field_date">Fecha</string>
+    <string name="field_email">Email</string>
+    <string name="field_phone">Teléfono</string>
+    <string name="field_currency">Moneda</string>
+    <string name="field_percentage">Porcentaje</string>
+    <string name="field_address">Dirección</string>
+</resources>
