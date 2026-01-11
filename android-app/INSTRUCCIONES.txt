@@ -1,0 +1,117 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                    DATAEXTRACTOR AI - ANDROID APP                            ║
+║                    Instrucciones de Instalación                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+PASO 1: REQUISITOS
+═══════════════════
+✓ Android Studio Hedgehog (2023.1.1) o superior
+✓ JDK 17 instalado
+✓ Android SDK 34 (se descarga automáticamente)
+✓ Conexión a internet (para descargar dependencias)
+
+PASO 2: ABRIR EL PROYECTO
+══════════════════════════
+1. Descomprime el archivo ZIP en tu Escritorio
+2. Abre Android Studio
+3. Selecciona: File → Open
+4. Navega a la carpeta "android-app" descomprimida
+5. Haz clic en "OK"
+
+PASO 3: SINCRONIZACIÓN (PRIMERA VEZ)
+═════════════════════════════════════
+Android Studio comenzará a:
+- Descargar Gradle automáticamente
+- Descargar todas las dependencias
+- Indexar el proyecto
+
+⚠️  ESTO PUEDE TARDAR 5-10 MINUTOS la primera vez
+    Observa la barra de progreso en la parte inferior
+
+Si ves errores de Gradle Wrapper:
+1. Ve a: File → Sync Project with Gradle Files
+2. Espera a que termine
+
+PASO 4: CONFIGURAR SDK (si es necesario)
+═════════════════════════════════════════
+Si Android Studio pide configurar el SDK:
+1. Ve a: File → Project Structure → SDK Location
+2. Selecciona tu Android SDK (normalmente se detecta automático)
+3. Haz clic en "Apply" y luego "OK"
+
+PASO 5: EJECUTAR LA APP
+════════════════════════
+1. Conecta un dispositivo Android con USB debugging activado
+   O inicia un emulador: Tools → Device Manager → Create Device
+
+2. Haz clic en el botón verde ▶️ (Run)
+
+3. Selecciona tu dispositivo/emulador
+
+4. Espera a que compile y se instale
+
+CONFIGURACIÓN DEL SERVIDOR BACKEND
+═══════════════════════════════════
+La app necesita conectarse al servidor backend.
+
+▸ Para EMULADOR:
+  La URL por defecto (10.0.2.2:8000) apunta a tu computadora
+
+▸ Para DISPOSITIVO FÍSICO:
+  1. Abre: app/build.gradle.kts
+  2. Busca la línea: buildConfigField("String", "API_BASE_URL"...
+  3. Cambia "10.0.2.2" por la IP de tu computadora
+     Ejemplo: "http://192.168.1.100:8000/api/v1/"
+  4. Sincroniza el proyecto (Sync Now)
+
+SOLUCIÓN DE PROBLEMAS COMUNES
+══════════════════════════════
+
+❌ Error: "Gradle project sync failed"
+   → File → Invalidate Caches → Restart
+
+❌ Error: "SDK location not found"
+   → File → Project Structure → SDK Location
+   → Configura la ruta de tu Android SDK
+
+❌ Error: "Could not find gradle-wrapper.jar"
+   → File → Sync Project with Gradle Files
+   → Gradle lo descargará automáticamente
+
+❌ Error: "No connection to server"
+   → Verifica que el backend esté corriendo
+   → Verifica la IP del servidor en build.gradle.kts
+
+❌ Error: "Duplicate class"
+   → Build → Clean Project
+   → Build → Rebuild Project
+
+ESTRUCTURA DEL PROYECTO
+════════════════════════
+android-app/
+├── app/
+│   ├── src/main/
+│   │   ├── java/com/dataextractor/ai/
+│   │   │   ├── data/          ← Modelos y API
+│   │   │   ├── ui/            ← Pantallas y componentes
+│   │   │   ├── MainActivity.kt
+│   │   │   └── DataExtractorApp.kt
+│   │   ├── res/               ← Recursos (strings, colors, etc.)
+│   │   └── AndroidManifest.xml
+│   └── build.gradle.kts       ← Dependencias del módulo
+├── build.gradle.kts           ← Configuración raíz
+├── settings.gradle.kts
+└── gradle/                    ← Wrapper de Gradle
+
+¡LISTO PARA USAR!
+══════════════════
+Una vez que la app compile:
+1. Sube una plantilla Excel/Word
+2. Configura los campos a extraer
+3. Sube fotos de documentos
+4. Procesa con IA
+5. Descarga el Excel con los datos
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  ¿Problemas? Revisa el README.md para más detalles                          ║
+╚══════════════════════════════════════════════════════════════════════════════╝
