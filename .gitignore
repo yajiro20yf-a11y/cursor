@@ -1,0 +1,46 @@
+# Dependencias
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+
+# Archivos de usuario
+uploads/
+outputs/
+templates/*.xlsx
+templates/*.docx
+
+# Logs
+*.log
+logs/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# Cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporal
+*.tmp
+*.temp
