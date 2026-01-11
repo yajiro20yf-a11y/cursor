@@ -1,14 +1,26 @@
-// Estructura placeholder para App.js en React Native
-// Este archivo es el punto de entrada que leerá Android Studio a través del bundler
-
 import React from 'react';
-import { View, Text, Button } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+import HomeScreen from './src/screens/HomeScreen';
+import CameraScreen from './src/screens/CameraScreen';
+
+const Stack = createStackNavigator();
 
 export default function App() {
   return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>DocuFill AI Mobile Scanner</Text>
-      <Button title="Escanear Documentos" onPress={() => console.log("Iniciar cámara")} />
-    </View>
+    <NavigationContainer>
+      <Stack.Navigator initialRouteName="Home">
+        <Stack.Screen 
+          name="Home" 
+          component={HomeScreen} 
+          options={{ title: 'DocuFill AI - Inicio' }} 
+        />
+        <Stack.Screen 
+          name="Camera" 
+          component={CameraScreen} 
+          options={{ title: 'Escanear Documentos' }} 
+        />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
